@@ -1,0 +1,28 @@
+package me.jaewook.bamboogrove;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+import me.jaewook.bamboogrove.core.base.BaseActivity;
+
+public class Page extends BaseActivity {
+
+
+    private static final int LAYOUT_RESOURCE = R.layout.activity_page;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        setLayoutResource(LAYOUT_RESOURCE);
+        super.onCreate(savedInstanceState);
+    }
+
+    @Override
+    protected void init() {
+        
+    }
+
+    @Override
+    protected void initView() {
+
+    }
+}

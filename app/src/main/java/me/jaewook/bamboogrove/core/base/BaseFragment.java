@@ -23,12 +23,18 @@ public abstract class BaseFragment extends Fragment {
         if(layoutRes <= 0) {
             throw new RuntimeException("you MUST set your layout xml for this fragment!");
         }
+        init();
         rootView = inflater.inflate(layoutRes, container, false);
+        initView();
         return rootView;
     }
 
     protected abstract void init();
     protected abstract void initView();
+
+    public void setLayoutResource(int resId) {
+        layoutRes = resId;
+    }
 
     public View findViewById(int viewId) {
         return rootView.findViewById(viewId);

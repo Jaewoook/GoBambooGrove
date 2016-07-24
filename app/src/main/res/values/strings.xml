@@ -1,3 +1,24 @@
 <resources>
-    <string name="app_name">고나무숲</string>
+    <string name="app_name">외침</string>
+
+    <!--For SDKs-->
+    <string name="facebook_app_id">563998243780326</string>
+
+    <string name="upload">외치기</string>
+
+    <string name="select_category">카테고리 선택</string>
+    <string name="category_worry"></string>
+    <string name="category_love"></string>
+    <string name="category_future"></string>
+    <string name="category_etc"></string>
+
+    <string-array name="category_list">
+        <item>고민/걱정</item>
+        <item>연애/사랑</item>
+        <item>미래/진로</item>
+        <item>학교생활</item>
+        <item>공부/시험</item>
+        <item>기타</item>
+    </string-array>
+
 </resources>

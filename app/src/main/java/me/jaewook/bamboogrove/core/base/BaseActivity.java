@@ -21,12 +21,12 @@ public abstract class BaseActivity extends AppCompatActivity {
         init();
         setContentView(layoutRes);
         initView();
-        initMeni();
+        initMenu();
     }
 
     protected abstract void init();
     protected abstract void initView();
-    protected abstract void initMeni();
+    protected void initMenu() {}
 
     public void setLayoutResource(int layoutId) {
         layoutRes = layoutId;
